@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding:0;
+    font-family: sans-serif;
+    background-color: #212825;
+}
+.sign{
+    width: 1000px;
+    padding: 40px;
+    position: absolute;
+    left:400px;
+    transform: translate(-25%);
+    background: #a7c4b9;
+    text-align: center;
+    align-items: center;
+   
+}
+.sign p{
+    left: 0%;
+    font-family: sans-serif;
+
+}
+.sign h1{
+   
+    text-transform: uppercase;
+}
+.sign input[type="text"],.log input[type="password"], .sign input[type="email"],.sign input[type="datetime"]{
+    background: none;
+    padding: 2px 10px;
+    text-align: center;
+    margin: 12px auto;
+    border: 2px solid #2a453b;
+    border-radius: 24px;
+    width: 200px;
+    height: 30px;
+    color: #191919;
+    display: block;
+    outline: none;
+    text-decoration: #191919;
+}
+.sign input[type="submit"]{
+    width: 120px;
+    height: 40px;
+    font-size: small;
+    background-color: #a7c4b9;
+    border-radius: 15px;
+    color: #191919;
+    text-align: center;
+    outline: none;
+    border-color: black;
+
+}
+.sign input[type="submit"]:hover{
+    width: 150px;
+    height: 40px;
+    font-size: medium;
+    border-radius: 15px;
+    background-color: #212825;
+    color: white;
+}
+.sign input[type="text"]:focus,.log input[type="password"]:focus, .sign input[type="email"]:focus,.sign input[type="datetime"]:focus{
+    width: 250px;
+    height: 38px;
+    padding: 2px 10px;
+    border: 3px solid #b84242;
+
+}
+.sign a1{
+    padding: 14px 20px;
+    display: inline-block;
+    background-color: #a19999;
+    color: #191919;
+    border-radius: 25px;
+    border-style:inherit ;
+    border-width: 1px;
+    width: 50px;
+ }
